@@ -1,3 +1,3 @@
 print "what is your name?"
 name = gets
-print " Hello" + name
+print "Hello #{name.strip}!"
